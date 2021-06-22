@@ -14,7 +14,7 @@ function App() {
       <Router>
       <Header/>
       <Switch>
-        <Route path="/" exact component={ProductListing} />
+        <Route path="/" exact component={CSVManupulation} />
         <Route path="/product/:productId" exact component={ProductDetails}/>
         <Route path="/csv" exact component={CSVManupulation}/>
         <Route>Route not found</Route>
